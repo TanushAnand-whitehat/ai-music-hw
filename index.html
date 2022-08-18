@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>AI Music Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+  <script src = "https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body background = "music background.webp">
+<center>
+  	<h1 class = "btn btn-warning topic">AI Music Application</h1>
+	    <br>
+      <h3>
+	    <span class = "btn btn-warning subheading">NOTE - Get your left wrist in front of the camera for Avengers Theme Song and Get your right wrist in front of the camera for the Justice League theme song.</span>
+        </h3>
+	<br><br>
+  <div class = "avengers">
+    <br>
+    <h3 class = "btn btn-success" id = "avengers_play"> Avengers </h3>
+  </div>
+  <div class = "justice_league">
+    <br>
+    <h3 class = "btn btn-success" id = "jc_play"> Justice League </h3>
+  </div>
+  <button onclick = "play_theme()" class = "btn btn-warning theme_play"> Play </button>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
